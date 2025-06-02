@@ -1,0 +1,4 @@
+flask
+pyodbc
+pymongo
+boto3

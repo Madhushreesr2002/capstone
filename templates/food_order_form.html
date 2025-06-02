@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head><title>Food Order Form</title></head>
+<body>
+    <h2>Place Your Food Order</h2>
+    <form method="POST">
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" name="password" required><br><br>
+
+        <label>Restaurant:</label><br>
+        <select name="restaurant" required>
+            <option value="KFC">KFC</option>
+            <option value="Dominos">Dominos</option>
+            <option value="Pizza Hut">Pizza Hut</option>
+        </select><br><br>
+
+        <label>Food Item:</label><br>
+        <select name="food_item" required>
+            <option value="Burger">Burger</option>
+            <option value="Pizza">Pizza</option>
+            <option value="Fries">Fries</option>
+        </select><br><br>
+
+        <label>Quantity:</label><br>
+        <input type="number" name="quantity" min="1" required><br><br>
+
+        <label>Payment Method:</label><br>
+        <input type="text" name="payment_method" required><br><br>
+
+        <label>Address:</label><br>
+        <textarea name="address" rows="3" required></textarea><br><br>
+
+        <label>Suggestions:</label><br>
+        <textarea name="suggestions" rows="3"></textarea><br><br>
+
+        <button type="submit">Submit Order</button>
+    </form>
+</body>
+</html>
